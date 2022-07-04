@@ -21,7 +21,6 @@ export default function Signup() {
           userName: userName,
           phone: phone
         }).then(() => {
-          e.reset();
           navigate('/login');
 
         })
